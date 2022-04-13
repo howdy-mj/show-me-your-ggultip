@@ -11,14 +11,24 @@
   "dependencies": {
     "next": "12.1.5",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "styled-components": "^5.3.5"
+  },
+  "resolutions": {
+    "styled-components": "^5"
   },
   "devDependencies": {
     "@types/node": "17.0.23",
     "@types/react": "18.0.3",
     "@types/react-dom": "18.0.0",
+    "@types/styled-components": "^5.1.25",
     "eslint": "8.13.0",
     "eslint-config-next": "12.1.5",
+    "eslint-config-prettier": "^8.5.0",
     "typescript": "4.6.3"
+  },
+  "engines": {
+    "npm": "yarn을 사용해주세요",
+    "yarn": ">= 1.22.0"
   }
 }
