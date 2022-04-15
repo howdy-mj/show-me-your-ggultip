@@ -3,6 +3,7 @@ import { ThemeProvider } from 'styled-components';
 
 import GlobalStyle from '@styles/global';
 import theme from '@styles/theme';
+import '@styles/wrapper.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

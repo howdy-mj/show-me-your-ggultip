@@ -4,7 +4,7 @@
     "paths": {
       "@components/*": ["components/*"],
       "@containers/*": ["containers/*"],
-      "@pages/*": ["pages/*"],
+      "@models/*": ["models/*"],
       "@styles/*": ["styles/*"]
     },
     "target": "es5",

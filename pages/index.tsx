@@ -1,11 +1,9 @@
 import type { NextPage } from 'next';
 
-import TempoContainers from '@containers/index';
+import MainContainer from '@containers/Main';
 
 const Home: NextPage = () => {
-  return (
-    <TempoContainers />
-  );
+  return <MainContainer />;
 };
 
 export default Home;
